@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp">
+
+    <EditText
+        android:id="@+id/et_habitName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:maxLength="16"
+        android:hint="습관명 (최대 16자)"/>
+
+    <EditText
+        android:id="@+id/et_habitGoal"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="목표일수 (숫자만 입력)"/>
+
+    <Button
+        android:id="@+id/btn_habitAdd"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/done"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

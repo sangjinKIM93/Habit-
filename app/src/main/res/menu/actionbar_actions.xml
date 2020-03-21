@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_exitChat"
+        android:icon="@drawable/chat_start"
+        android:title="채팅 나가기"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/edge"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/btn_exit_memoEdit"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/back"/>
+
+    <EditText
+        android:id="@+id/et_content_memoEdit"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="내용"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:textColor="@color/darkGray"/>
+
+    <TextView
+        android:id="@+id/tv_date_memoEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날짜"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/darkGray"/>
+
+
+    <Button
+        android:id="@+id/btn_complete_memoEdit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/done"/>
+
+</LinearLayout>

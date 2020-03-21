@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/edge"
+    android:padding="10dp"
+    android:id="@+id/item_habitAuth"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/iv_habitAuthProfile"
+        android:layout_gravity="center"
+        app:civ_border_color="@color/darkGray"
+        app:civ_border_width="1dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_gravity="center"
+        android:id="@+id/tv_habitAuthUid"
+        android:layout_toRightOf="@+id/iv_habitAuthProfile"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_habitAuthContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="resolution"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/iv_habitAuthProfile"
+        android:layout_below="@+id/tv_habitAuthUid"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/btn_deleteHabitAuth"
+        />
+
+    <Button
+        android:id="@+id/btn_deleteHabitAuth"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/delete_auth"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

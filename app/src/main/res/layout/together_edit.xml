@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp">
+
+    <EditText
+        android:id="@+id/et_editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/edge"
+        android:padding="8dp"
+        android:hint="제목"/>
+
+    <EditText
+        android:id="@+id/et_editContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="내용을 입력해주세요."
+        android:background="@drawable/edge"
+        android:padding="8dp"
+        android:minLines="6"
+        android:gravity="top"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/training"
+        android:id="@+id/iv_editImage"
+        android:scaleType="fitXY"
+        />
+
+    <Button
+        android:id="@+id/btn_toDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="기본 이미지로 변경"/>
+
+    <Button
+        android:id="@+id/btn_editFinish"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/done"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

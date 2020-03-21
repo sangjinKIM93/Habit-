@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <Button
+        android:id="@+id/btn_toLogin"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:text="Log-in"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/btn_myInfo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:background="@drawable/btn_myinfo"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"/>
+
+    <ProgressBar
+        android:id="@+id/loading_togetherList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:padding="5dp"
+        android:id="@+id/recycle_together"
+        android:layout_below="@id/btn_toLogin"
+        android:visibility="invisible"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:id="@+id/fab_together"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="280dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/add5"
+        android:backgroundTint="@color/colorPrimary"
+        app:borderWidth="0dp"
+        app:fabSize="auto"
+        />
+
+</RelativeLayout>

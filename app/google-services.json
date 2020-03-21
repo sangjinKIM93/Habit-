@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1019514605842",
+    "firebase_url": "https://lebit-a1fe5.firebaseio.com",
+    "project_id": "lebit-a1fe5",
+    "storage_bucket": "lebit-a1fe5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019514605842:android:5411fae8c942021540a3cb",
+        "android_client_info": {
+          "package_name": "com.sangjin.habit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019514605842-h6imiga77bo5nceo3d934gnt6vnr851o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sangjin.habit",
+            "certificate_hash": "ef778802566fc60550e7b88d800a69b09f61b795"
+          }
+        },
+        {
+          "client_id": "1019514605842-fsu5v70u4ml9d2s3duibc9de40lg3loo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq89Ufcf0Rfp6QMe0XVpc-aZXpXYoWW6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019514605842-fsu5v70u4ml9d2s3duibc9de40lg3loo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

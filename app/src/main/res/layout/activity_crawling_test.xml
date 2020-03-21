@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrawlingTestActivity">
+
+    <EditText
+        android:id="@+id/et_crawling"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="분석할 내용"/>
+
+    <Button
+        android:id="@+id/btn_crawling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_crawling"
+        android:text="크롤링" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_crawling"
+            android:text="text"
+            android:gravity="center"
+            android:layout_marginTop="150dp"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </ScrollView>
+
+
+</RelativeLayout>

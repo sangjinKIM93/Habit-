@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants">
+
+        <ProgressBar
+            android:id="@+id/loading_togetherView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+        <RelativeLayout
+            android:visibility="invisible"
+            android:id="@+id/layout_togetherView"
+            android:layout_width="match_parent"
+            android:layout_height="730dp"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn_togetherDelete"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="삭제"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_togetherEdit"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/btn_togetherDelete"
+                android:text="수정"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_togetherViewMain"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_below="@+id/btn_togetherDelete"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:text="제목"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_togetherViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_togetherViewMain"
+                android:layout_marginTop="20dp"
+                android:text="제목"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_togetherViewContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_togetherViewTitle"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="내용"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/btn_apply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_togetherViewContent"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="신청하기"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/tv_applyCompleted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_togetherViewContent"
+                android:layout_marginTop="10dp"
+                android:background="@color/whiteSmoke"
+                android:text="신청되었습니다."
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/application_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tv_applyCompleted"
+                android:padding="5dp"
+                android:layout_marginBottom="50dp"
+                />
+
+            <Button
+                android:id="@+id/btn_withdraw"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:text="모임 나가기"
+                android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

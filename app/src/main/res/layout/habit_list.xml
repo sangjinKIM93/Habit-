@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <Spinner
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:id="@+id/spinner_lineUp"
+        android:layout_alignLeft="@id/listView_main_list" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:id="@+id/listView_main_list"
+        android:layout_below="@id/spinner_lineUp"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_mainTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="15dp"-->
+<!--        android:text="오늘 시작하지 않은 것은 절대 내일 끝낼 수 없다."-->
+<!--        android:shadowColor="#000000"-->
+<!--        android:shadowDx="3"-->
+<!--        android:shadowDy="2"-->
+<!--        android:shadowRadius="2"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:textStyle="italic"-->
+<!--        android:layout_above="@id/listView_main_list"-->
+<!--        />-->
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:id="@+id/floatingActionButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="280dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/add5"
+        android:backgroundTint="@color/lighGreen"
+        app:borderWidth="0dp"
+        app:fabSize="auto"
+        />
+
+
+</RelativeLayout>

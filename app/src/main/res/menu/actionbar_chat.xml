@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_exitChat"
+        android:icon="@drawable/delete_auth"
+        android:title="채팅 나가기"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_notiOff"
+        android:icon="@drawable/delete_auth"
+        android:title="채팅알림 끄기"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_notiOn"
+        android:icon="@drawable/delete_auth"
+        android:title="채팅알림 켜기"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+</menu>
