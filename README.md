@@ -46,7 +46,8 @@ java, android
 
 # 이후 수정  
 3.30(월)  
-- appBar -> toolBar 수정 / scroll시 toolbar 사라지도록
+- appBar를 toolBar로 수정
+- scroll시 toolbar 사라지도록 수정
 <div>
   <img width="200" src="https://user-images.githubusercontent.com/62230118/77891701-5426ed00-72ac-11ea-9243-71753fa2c05e.jpg">
   <img width="200" src="https://user-images.githubusercontent.com/62230118/77891746-6739bd00-72ac-11ea-884f-538a7711c3ba.jpg">
