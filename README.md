@@ -41,3 +41,14 @@
     
 # 사용 기술
 java, android
+
+<br><br>
+
+# 이후 수정  
+3.30 : appBar -> toolBar 수정 / scroll시 toolbar 사라지도록
+<div>
+  <img width="150" src="https://user-images.githubusercontent.com/62230118/77891701-5426ed00-72ac-11ea-9243-71753fa2c05e.jpg">
+  <img width="150" src="https://user-images.githubusercontent.com/62230118/77891746-6739bd00-72ac-11ea-884f-538a7711c3ba.jpg">
+</div>
+
+
