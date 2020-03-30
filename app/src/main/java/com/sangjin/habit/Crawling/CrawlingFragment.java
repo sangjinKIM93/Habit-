@@ -111,28 +111,6 @@ public class CrawlingFragment extends Fragment {
     }
 
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.actionbar_actions, menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_exitChat:
-                Intent intent = new Intent(mContext, NewChatActivity.class);
-                intent.putExtra("IDX", togetherIdx);
-                startActivity(intent);
-                return true;
-
-            default:
-                return false;
-        }
-    }
-
-
-
     private void getInformation(int keywordGET){
 
         Call<ResponseBody> call = retrofitService.getCrawlingData(keywordGET);

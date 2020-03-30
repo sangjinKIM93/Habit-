@@ -88,25 +88,6 @@ public class TabFragment1 extends Fragment {
     private Context mContext;
     ViewGroup rootView;
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.actionbar_actions, menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_exitChat:
-                Intent intent = new Intent(mContext, NewChatActivity.class);
-                intent.putExtra("IDX", togetherIdx);
-                startActivity(intent);
-                return true;
-
-            default:
-                return false;
-        }
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

@@ -1,4 +1,4 @@
-package com.sangjin.habit;
+package com.sangjin.habit.Test;
 
 import io.realm.RealmObject;
 

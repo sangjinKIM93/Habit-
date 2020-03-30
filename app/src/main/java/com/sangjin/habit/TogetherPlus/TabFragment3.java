@@ -28,6 +28,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.sangjin.habit.Chatting.ChatAdapter;
+import com.sangjin.habit.Chatting.ChatData;
 import com.sangjin.habit.R;
 import com.sangjin.habit.RetrofitService;
 

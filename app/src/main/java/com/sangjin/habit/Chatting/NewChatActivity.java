@@ -1,11 +1,9 @@
 package com.sangjin.habit.Chatting;
 
-import android.Manifest;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
@@ -28,8 +26,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 import androidx.loader.content.CursorLoader;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -38,7 +34,6 @@ import com.google.firebase.iid.FirebaseInstanceId;
 import com.sangjin.habit.R;
 import com.sangjin.habit.RetrofitService;
 import com.sangjin.habit.Test.ImageLoadTask;
-import com.sangjin.habit.TogetherPlus.ChatData;
 import com.sangjin.habit.TogetherPlus.TogetherTabActivity;
 
 import org.json.JSONArray;

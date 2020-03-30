@@ -166,6 +166,7 @@ public class HabitPlusFragment extends Fragment {
         mRecyclerView.setAdapter(mAdapter);
         mAdapter.notifyDataSetChanged();
 
+        //홈 스크린 위젯 데이터 최신화
         AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(mContext);
         int appWidgetIds[] = appWidgetManager.getAppWidgetIds(
                 new ComponentName(mContext, WidgetListView.class));

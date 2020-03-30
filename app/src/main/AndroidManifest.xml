@@ -65,13 +65,11 @@
         </activity>
         <activity android:name=".TogetherPlus.TogetherAddActivity" />
         <activity android:name=".Activity.MyInfoActivity" />
-        <activity
-            android:name=".TogetherPlus.TogetherTabActivity"
-            android:theme="@style/AppTheme" />
+        <activity android:name=".TogetherPlus.TogetherTabActivity" />
         <activity android:name=".TogetherPlus.TogetherEditActivity" />
 
         <service
-            android:name=".service.MyFirebaseMessagingService"
+            android:name=".Chatting.MyFirebaseMessagingService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>

@@ -1,4 +1,4 @@
-package com.sangjin.habit.TogetherPlus;
+package com.sangjin.habit.Chatting;
 
 import io.realm.RealmObject;
 

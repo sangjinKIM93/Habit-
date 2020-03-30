@@ -2,15 +2,20 @@ package com.sangjin.habit.TogetherPlus;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 import com.sangjin.habit.Activity.MainBottomActivity;
 import com.sangjin.habit.Adapter.PagerAdapter;
+import com.sangjin.habit.Chatting.NewChatActivity;
 import com.sangjin.habit.R;
 
 public class TogetherTabActivity extends AppCompatActivity {
@@ -24,6 +29,9 @@ public class TogetherTabActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tab_together);
+
+        Toolbar tool_bar = findViewById(R.id.tool_bar);
+        setSupportActionBar(tool_bar);
 
         Intent intent = getIntent();
         togetherIdx = intent.getIntExtra("IDX", -1);
@@ -57,6 +65,28 @@ public class TogetherTabActivity extends AppCompatActivity {
 
         });
     }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.actionbar_actions, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_exitChat:
+                Intent intent = new Intent(this, NewChatActivity.class);
+                intent.putExtra("IDX", togetherIdx);
+                startActivity(intent);
+                return true;
+
+            default:
+                return false;
+        }
+    }
+
 
     @Override
     public void onBackPressed() {

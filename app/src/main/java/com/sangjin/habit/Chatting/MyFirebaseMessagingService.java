@@ -1,4 +1,4 @@
-package com.sangjin.habit.service;
+package com.sangjin.habit.Chatting;
 
 import android.util.Log;
 

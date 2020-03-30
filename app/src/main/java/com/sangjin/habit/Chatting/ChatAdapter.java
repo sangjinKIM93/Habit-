@@ -1,7 +1,6 @@
 package com.sangjin.habit.Chatting;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +14,6 @@ import androidx.swiperefreshlayout.widget.CircularProgressDrawable;
 import com.bumptech.glide.Glide;
 import com.sangjin.habit.Constant;
 import com.sangjin.habit.R;
-import com.sangjin.habit.TogetherPlus.ChatData;
 
 import java.util.ArrayList;
 

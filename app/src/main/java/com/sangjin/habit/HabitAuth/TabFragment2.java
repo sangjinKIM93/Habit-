@@ -67,25 +67,6 @@ public class TabFragment2 extends Fragment {
     TextView tv_protectFragment2;
     RelativeLayout relative_fragment2;
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.actionbar_actions, menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_exitChat:
-                Intent intent = new Intent(mContext, NewChatActivity.class);
-                intent.putExtra("IDX", togetherIdx);
-                startActivity(intent);
-                return true;
-
-            default:
-                return false;
-        }
-    }
 
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {

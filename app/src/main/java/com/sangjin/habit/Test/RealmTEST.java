@@ -10,7 +10,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.sangjin.habit.R;
-import com.sangjin.habit.User;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
