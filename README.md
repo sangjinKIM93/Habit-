@@ -50,6 +50,7 @@ java, android
 - 3.31(화) : scrim을 활용해서 이미지 위에 '제목', '수정/삭제 버튼' 띄우기
 <div>
   <img width="250" src="https://user-images.githubusercontent.com/62230118/77988044-58a7e000-7356-11ea-9d54-b9782641f8c2.gif">
+  <img width="250" src="https://user-images.githubusercontent.com/62230118/77988377-2f3b8400-7357-11ea-86f6-a9c6273481cc.jpg">
 </div>
 
 
