@@ -45,10 +45,9 @@ java, android
 <br><br>
 
 # 이후 수정  
-3.30(월)  
-- appBar를 toolBar로 수정
-- scroll시 toolbar 사라지도록 수정
-- scrim을 활용해서 이미지 위에 '제목', '수정/삭제 버튼' 띄우기 
+*Material Design 적용  
+- 3.30(월) : appBar를 toolBar로 수정, scroll시 toolbar 사라지도록 수정
+- 3.31(화) : scrim을 활용해서 이미지 위에 '제목', '수정/삭제 버튼' 띄우기
 <div>
   <img width="250" src="https://user-images.githubusercontent.com/62230118/77988044-58a7e000-7356-11ea-9d54-b9782641f8c2.gif">
 </div>
