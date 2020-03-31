@@ -48,9 +48,9 @@ java, android
 3.30(월)  
 - appBar를 toolBar로 수정
 - scroll시 toolbar 사라지도록 수정
+- scrim을 활용해서 이미지 위에 '제목', '수정/삭제 버튼' 띄우기 
 <div>
-  <img width="200" src="https://user-images.githubusercontent.com/62230118/77891701-5426ed00-72ac-11ea-9243-71753fa2c05e.jpg">
-  <img width="200" src="https://user-images.githubusercontent.com/62230118/77891746-6739bd00-72ac-11ea-884f-538a7711c3ba.jpg">
+  <img width="250" src="https://user-images.githubusercontent.com/62230118/77988044-58a7e000-7356-11ea-9d54-b9782641f8c2.gif">
 </div>
 
 
